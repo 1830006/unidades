@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+   		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Orden de Venta</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="corde.js"></script>
+	</head>
+	<body >
+
+	<div class="cont">
+		<h2>Orden de venta</h2><br><br>
+        <form action="#">
+		<div >
+			Elegir producto: <br>
+			<br>
+			<select id="productos" name="productos" class="form-control">
+            <optgroup>
+			<option>Producto</option>
+				<option value="1">Lentes</option>
+				<option value="2">Zapatos</option>
+				<option value="3">Vestidos</option>
+				<option value="4">Oso de peluche</option>
+				
+			</optgroup>
+
+			</select><br><br>
+	        Precio: <input id="precio"  style="margin:20px"  type="text"><br><br>
+	        Cantidad: <input id="cantidad"  style="margin:25px" type="text"><br><br>
+	        <button id="btn_guardar"  type="reset" onclick="agregar()">Agregar</button><br><br>
+		</div>
+        </form>
+         
+         <div class="cont2">
+        <table >
+            <thead>
+                <tr>
+                	<th>Numero</th>
+                    <th>Nombre</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody id="tabla">
+
+            </tbody>
+            <tbody>
+            	<tr>
+                    <th  COLSPAN="3">Iva</th>
+                    <th><label id="iva" >$</label></th>
+                </tr>
+                <tr>
+                    <th COLSPAN="3">Subtotal</th>
+                    <th><label id="sub">$</label></th>
+                </tr>
+                <tr>
+                    <th COLSPAN="3">Total</th>
+                    <th><label id="total">$</label></th>
+                </tr>
+            </tbody>
+        </table></div>
+   </div>
+	</body>
+</html>

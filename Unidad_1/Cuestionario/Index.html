@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cuestionario</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="contenido">
+		<h3>Registro de Libros</h3>
+		<form action="" method="GET">
+			<div>
+				<label for="nombre">Nombre del Libro:</label>
+				<input type="text" id="nombre" name="nombre" required>
+			</div>
+
+			<div>
+				<label for="autor">Nombre del Autor:</label>
+				<input type="text" id="autor" name=autor">
+			</div>
+
+			<div>
+				<label>Número de Páginas:</label>
+				<input type="number" name="paginas" min=10>
+			</div>
+
+			<div>
+				<label>Género:</label><br>
+				<input type="checkbox" name="genero" value="1"> Romance
+				<input type="checkbox" name="genero" value="2"> Terror
+				<input type="checkbox" name="genero" value="3"> Aventura <br>
+				<input type="checkbox" name="genero" value="4"> Ciencia Ficción
+				<input type="checkbox" name="genero" value="5"> Drama
+				<input type="checkbox" name="genero" value="6"> Suspenso
+			</div>
+
+			<div>
+				<label for="idiomas">Idioma:</label><br>
+				<input type="radio" name="idioma" id="idiomas" value="espanol">
+				Español
+				<input type="radio" name="idioma" id="idiomas" value="ingles">
+				Inglés
+			</div>
+
+			<div>
+				<label>Fecha de Publicación:</label>
+				<input type="date" name="fecha">
+			</div>
+
+			<div>
+				<label>Descripción:</label><br>
+				<textarea name="descripcipon"></textarea>
+			</div>
+
+			<div>
+				<label>Editorial:</label><br>
+				<select name="editorial">
+					<option>--Seleccione--</option>
+					<option >Caligrama Editores</option>
+					<option>Ediciones el Naranjo</option>
+					<option>Alias Editorial</option>
+					<option>Ediciones Era</option>
+					<option>Editorial CIDCLI</option>
+				</select>
+			</div>
+
+			<div>
+				<label for="email">Correo de la Editorial:</label>
+				<input type="email" id=email" name="correo">
+			</div>
+
+			<div>
+				<label for="telefono">Telefono:</label>
+				<input type="phone" name="telefono">
+			</div>
+			<br>
+			<div class="boton">
+				<input type="submit" name="" value="Enviar">
+				<input type="reset" name="" value="Reiniciar">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

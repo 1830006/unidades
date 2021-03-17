@@ -1,0 +1,136 @@
+:root{
+	--color-principal:#ffcf56;
+	--fondo: #edead0;
+	--color2: #bad2b9;
+	--color3: #86baa1;
+	--color4: #a0eBaf;
+	--color5: #3ab795;
+}
+
+body{
+	width: 80%;
+	background-color: var(--fondo);
+	margin: auto;
+	min-width: 600px; /*Ancho Minimo*/
+}
+
+.contenido{
+	background-color: var(--color2);
+	padding: 50px 100px;
+	
+}
+/***** Encabezado *****/
+header{
+	background-color: var(--color4);
+	display: flex;
+
+
+}
+
+h1{
+	 color: var(--color-principal);;
+	 size:  200px;
+	 text-transform: uppercase;
+	 text-align: center;
+}
+
+/***** Fin de Encabezado *****/
+
+/***** Menú *****/
+nav {
+	background-color: var(--color3);
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li a{
+	text-decoration: none;
+	margin-right: 10px;
+	color: #FFFFFF;
+}
+/*Hover=pseudoselector: Pasar encima el mouse*/
+nav ul li a:hover{
+	color: var(--color-principal);
+
+}
+/***** Contenido Principal *****/
+.principal{
+	display: flex; /*Acomoda Todo en una Sola Línea*/
+}
+
+
+
+main {
+	width: 70%;
+}
+
+.secciones{
+	display: flex;
+}
+
+.secciones *{ /* *Engobla todo*/
+	padding: 5px;
+}
+
+main, aside{
+	padding: 10px;
+}
+
+aside {
+	width: 50%;
+}
+
+
+p{
+	text-align: justify;
+}
+
+
+/***** Pie de Página *****/
+
+footer *{
+	text-align: center;
+} /*Solo Texto e Imagenes*/
+
+/*footer{
+	display: flex;
+	justify-content: center;
+} Engloba Todo*/
+div, header, nav, main, aside, footer, article, section{
+	border: solid 1px white;
+	padding: 10px;
+}
+
+header{
+	background-color: black;
+}
+
+.contenido{
+	background-color: cyan;
+}
+
+main {
+	background-color: purple;
+}
+
+.secciones{
+	background-color: yellow;
+}
+section{
+	background-color: red;
+}
+
+aside {
+	background-color: orange;
+}
+
+footer{
+	background-color: lime;
+}
+
+article{
+	background-color: pink;
+}
+

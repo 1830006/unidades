@@ -1,0 +1,56 @@
+
+
+h3{
+	
+	padding: 10px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+	border: solid 5px black;
+	border-radius: 50px;
+	width: 35%;
+	min-width: 500px;
+	
+
+}
+
+.contenido{
+	padding: 50px;
+	background color: white;
+}
+
+label{
+	font-size: 19.5px;
+	width: 90px;
+	font-family: 'Indie Flower', cursive;
+	color: #09B7FE;
+}
+
+
+input[type="number"],input[type="text"],input[type="email"],input[type="phone"], select{
+	width: 150px;
+}
+
+input[type="radio"],input[type="checkbox"]{
+	display: inline-block;
+}
+
+input[type="submit"],input[type="reset"]{
+
+	background-color: white;
+	color: black;
+	border:#F06292 4px solid;
+
+	border-radius: 5.5px;
+	
+
+}
+
+.boton{
+	text-align: center;
+
+}
+

@@ -1,0 +1,31 @@
+p{ /*Selector de Etiquetas*/
+	text-decoration: underline;
+	text-decoration-color: purple;
+	margin: 10px 15px 20px 25px;
+	font-size: 15px;
+}
+
+/*Padding: Texto separado del borde
+  Margin: Separar dos columnas*/
+div h1{
+	color: green;
+}
+
+h1{
+	color: red ;
+}
+
+#h3 /*Selector ID*/{
+	color: white;
+	background-color: black;
+}
+
+.res /*selector de clase*/{
+	background-color: orange;/* Subrayado*/
+	text-decoration: underline;
+	text-transform: uppercase; /*Mayuscula*/
+	color: white;
+	font-size: 50px; /*Tamaño de Letra*/
+	font-family: arial; /*Fuente de letra, fonts*/
+
+}

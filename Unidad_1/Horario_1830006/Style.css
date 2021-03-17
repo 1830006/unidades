@@ -1,0 +1,63 @@
+.gris{
+	text-align: center;
+	background-color: #CFCFCF;
+	padding: 5px;
+}
+
+.rosa{
+	text-align: center;
+	background-color: #F15BB5;
+	padding: 5px;
+}
+
+.morado{
+	text-align: center;
+	background-color: #9B5DE5;
+	padding: 5px;
+}
+
+.aqua{
+	text-align: center;
+	background-color:#7FD09D;
+	padding: 5px;
+}
+
+.celeste{
+	text-align: center;
+	background-color:#00BBF9;
+	padding: 5px;
+
+}
+
+.azul{
+	text-align: center;
+	background-color:#00F5D4;
+	padding: 5px;
+}
+
+.vacio{
+	background-color:#9D8189;
+}
+
+.receso{
+	text-align: center;
+	color: black;
+	background-color: #CFCFCF;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.borde{
+    margin: 20px;
+
+
+}
+
+p{
+	text-align: left;
+}
+
+
